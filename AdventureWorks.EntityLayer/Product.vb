@@ -4,14 +4,14 @@ Public Class Product
     Inherits CommonBase
 
     Sub New()
-        StandrardCost = 250
+        StandardCost = 250
         ListPrice = 900
     End Sub
 
     Public Property SellStartDate As DateTime
 
     Public Property SellEndDate As DateTime
-    Public Property StandrardCost As Decimal
+    Public Property StandardCost As Decimal
     Public Property ListPrice As Decimal
     Public Property ProductID As String
     Public Property ProductName As String
@@ -38,15 +38,15 @@ Public Class Product
     'End Function
 
     Overloads Function calculateProfit() As Decimal
-        Return calculateProfit(StandrardCost)
+        Return calculateProfit(StandardCost)
     End Function
 
 
     Overloads Function calculateProfit(ByVal newCost As Decimal)
         If newCost <> 0 Then
-            StandrardCost = newCost
+            StandardCost = newCost
         End If
-        Return ListPrice - StandrardCost
+        Return ListPrice - StandardCost
     End Function
 
     Protected Overrides Function GetClassData() As String

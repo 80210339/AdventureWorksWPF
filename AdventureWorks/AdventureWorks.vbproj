@@ -132,9 +132,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AdventureWork.ViewModelLayer\AdventureWork.ViewModelLayer.vbproj">
+    <ProjectReference Include="..\AdventureWork.ViewModelLayer\AdventureWorks.ViewModelLayer.vbproj">
       <Project>{4bb2293b-df23-4a9d-826d-bf20463ec1d8}</Project>
-      <Name>AdventureWork.ViewModelLayer</Name>
+      <Name>AdventureWorks.ViewModelLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AdventureWorks.DataLayer\AdventureWorks.DataLayer.vbproj">
+      <Project>{6940cefb-3fbf-4d6d-bb3e-59a22cffdd07}</Project>
+      <Name>AdventureWorks.DataLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\AdventureWorks.EntityLayer\AdventureWorks.EntityLayer.vbproj">
       <Project>{4440ca31-cfaa-4596-9be0-3a9b60308bb3}</Project>
@@ -144,6 +148,10 @@
       <Project>{53a04dc6-5959-4b0c-9192-0022d5e59900}</Project>
       <Name>Common.Library</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Xml\Customers.xml" />
+    <Resource Include="Xml\Products.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

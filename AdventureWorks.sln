@@ -7,7 +7,7 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdventureWorks", "Adventure
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Common.Library", "Common.Library\Common.Library.vbproj", "{53A04DC6-5959-4B0C-9192-0022D5E59900}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdventureWork.ViewModelLayer", "AdventureWork.ViewModelLayer\AdventureWork.ViewModelLayer.vbproj", "{4BB2293B-DF23-4A9D-826D-BF20463EC1D8}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdventureWorks.ViewModelLayer", "AdventureWork.ViewModelLayer\AdventureWorks.ViewModelLayer.vbproj", "{4BB2293B-DF23-4A9D-826D-BF20463EC1D8}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdventureWorks.EntityLayer", "AdventureWorks.EntityLayer\AdventureWorks.EntityLayer.vbproj", "{4440CA31-CFAA-4596-9BE0-3A9B60308BB3}"
 EndProject

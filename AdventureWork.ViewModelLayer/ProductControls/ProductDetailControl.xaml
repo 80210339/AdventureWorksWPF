@@ -60,7 +60,7 @@
                Content="Standard Cost"/>
         <TextBox Grid.Row="4"
                  Grid.Column="1"
-                 Text="{Binding Path=Entity.StandrardCost}"/>
+                 Text="{Binding Path=Entity.StandardCost}"/>
 
         <Label Grid.Row="5"
                Content="List Price"/>
@@ -91,6 +91,14 @@
         <TextBox Grid.Row="9"
                  Grid.Column="1"
                  Text="{Binding Path=Entity.SellEndDate}"/>
+
+        <Label Grid.Row="10"
+               Content="CurrentDirectoryPath"/>
+        <TextBox Grid.Row="10"
+                 Grid.Column="1"
+                Text="{Binding CurrentDirectoryPath}"/>
+
+
 
 
 

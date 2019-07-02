@@ -45,6 +45,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -100,6 +102,16 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AdventureWorks.EntityLayer\AdventureWorks.EntityLayer.vbproj">
+      <Project>{4440ca31-cfaa-4596-9be0-3a9b60308bb3}</Project>
+      <Name>AdventureWorks.EntityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Library\Common.Library.vbproj">
+      <Project>{53a04dc6-5959-4b0c-9192-0022d5e59900}</Project>
+      <Name>Common.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
